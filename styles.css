@@ -76,6 +76,7 @@ body{
         width: 90%;
     }
     body > img{
+        width:100%;
         content: url('faq-accordion-main/assets/images/background-pattern-mobile.svg');
     }
 }
