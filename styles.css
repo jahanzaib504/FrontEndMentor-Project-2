@@ -61,9 +61,6 @@ body{
     font-weight: 600;
     padding: 10px 0px;
 }
-.statement :not(:first){
-    background-color: red;
-}
 .block .statement small{
     font-weight: 400;
 }
@@ -74,10 +71,10 @@ body{
     color: #ae28eb;
 }
 @media only screen and (max-width: 600px) {
-    body{
+    body :first-child{
         width: 90%;
     }
-    body :first-child{
+    body > img{
         src: url('faq-accordion-main/assets/images/background-pattern-mobile.svg');
     }
 }
