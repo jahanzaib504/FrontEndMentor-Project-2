@@ -70,11 +70,12 @@ body{
 .statement p:hover{ 
     color: #ae28eb;
 }
+
 @media only screen and (max-width: 600px) {
     body :first-child{
         width: 90%;
     }
     body > img{
-        src: url('faq-accordion-main/assets/images/background-pattern-mobile.svg');
+        content: url('faq-accordion-main/assets/images/background-pattern-mobile.svg');
     }
 }
